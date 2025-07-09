@@ -7,13 +7,13 @@
 
 body {
   line-height: 1.6;
-  background: #FADADD; /* pastel pink background */
+  background: #f4f4f4;
   color: #333;
 }
 
 header {
-  background: #A7C7E7; /* pastel blue header */
-  color: #333;
+  background: #3366FF;
+  color: white;
   padding: 1rem 0;
 }
 
@@ -36,9 +36,10 @@ nav li {
 }
 
 nav a {
-  color: #333; /* darker for better contrast */
+  color: white;
   text-decoration: none;
 }
+
 
 section {
   padding: 2rem 1rem;
@@ -61,35 +62,7 @@ section {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #A7C7E7; /* same pastel blue as header */
-  color: #333;
+  background: #3366FF;
+  color: white;
   margin-top: 2rem;
-}
-
-h1, h2, h3 {
-  color: #444;
-}
-
-a:hover {
-  color: #F6B6C6; /* pastel pink hover */
-}
-
-section {
-  background-color: rgba(255, 255, 255, 0.85);
-  border-left: 5px solid #A7C7E7;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.project a {
-  display: inline-block;
-  margin-top: 0.5rem;
-  color: #336699;
-  font-weight: bold;
-}
-
-.project a:hover {
-  color: #F6B6C6;
-  text-decoration: underline;
 }
