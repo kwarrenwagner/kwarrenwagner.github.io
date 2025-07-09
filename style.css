@@ -13,8 +13,8 @@ body {
 }
 
 header {
-  background: #3366FF;
-  color: white;
+  background: linear-gradient(to right, #FADADD, #A7C7E7);
+  color: #333;
   padding: 1rem 0;
 }
 
@@ -83,8 +83,8 @@ section {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #3366FF;
-  color: white;
+  background: linear-gradient(to right, #FADADD, #A7C7E7);
+  color: #333;
   margin-top: 2rem;
 }
 h1, h2, h3 {
