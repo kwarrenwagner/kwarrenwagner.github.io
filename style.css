@@ -114,3 +114,23 @@ section {
   color: #F6B6C6;
   text-decoration: underline;
 }
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; /* mobile responsiveness */
+}
+
+.about-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* optional: circular image */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
