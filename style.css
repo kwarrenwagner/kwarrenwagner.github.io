@@ -54,6 +54,7 @@ section {
 
 .project {
   background: white;
+  border: 1px solid #F6B6C6;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -67,7 +68,7 @@ footer {
   margin-top: 2rem;
 }
 h1, h2, h3 {
-  color: #444;
+  color: black;
 }
 
 a:hover {
@@ -93,5 +94,3 @@ section {
   color: #F6B6C6;
   text-decoration: underline;
 }
-
-border: 1px solid #F6B6C6;
